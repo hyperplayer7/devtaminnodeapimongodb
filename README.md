@@ -44,6 +44,7 @@
 ### Notes
  - Mongoose Model
  - Mongoose Schema
+ - module.exports
 
 <!-- ### Next Iteration
 - Make a json API containing data - DONE

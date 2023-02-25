@@ -6,3 +6,5 @@ node_modules/*
 images/*
 
 !images/.gitkeep
+
+config.js

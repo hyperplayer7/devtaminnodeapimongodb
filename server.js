@@ -2,7 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./models/productModel");
 const app = express();
-
+const config = require('./config');
+const mongoKey = config.MONGO_KEY;
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -68,9 +69,10 @@ app.post("/products", async (req, res) => {
 });
 
 mongoose.set("strictQuery", false);
+
 mongoose
   .connect(
-    "mongodb+srv://hyperplayer7:Q4Tm1LJ4YSGawu2W@cluster0.n373s4n.mongodb.net/Node-API?retryWrites=true&w=majority"
+    `mongodb+srv://hyperplayer7:${mongoKey}@cluster0.n373s4n.mongodb.net/Node-API?retryWrites=true&w=majority`
   )
   .then(() => {
     console.log("connected to mongo db");
