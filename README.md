@@ -46,11 +46,9 @@
  - Mongoose Schema
  - module.exports
 
-<!-- ### Next Iteration
-- Make a json API containing data - DONE
-- Make app read data from the API - DONE
-- Refactor
-- Add styling -->
+### Next Iteration
+- Deploy to render
+- Test on render
 
 ### Routes Playground (Using Insomnia)
 ```
