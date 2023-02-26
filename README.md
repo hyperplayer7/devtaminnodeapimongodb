@@ -33,7 +33,7 @@
 
 
 ### Project URL
-<!-- - https://urlsession-upload-backend-codebruh.onrender.com/ -->
+- https://devtaminnodeapimongodb.onrender.com/
 
 ### Github URL
 - https://github.com/hyperplayer7/devtaminnodeapimongodb
@@ -43,6 +43,7 @@
 - https://github.com/Ileriayo/markdown-badges
 - app.diagrams.net
 - https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786
+- https://stackoverflow.com/questions/72150113/nodejs-app-build-is-successful-render-but-application-error-in-render-at-the-l
 
 ### Notes
  - Mongoose Model
@@ -50,10 +51,11 @@
  - module.exports
  - Add env variables
  - Connect Render & Mongo Atlas
+ - Render health checks
 
 ### Next Iteration
-- Deploy to render
-- Test on render
+- Deploy to render - DONE
+- Test on render - DONE
 
 ### Routes Playground (Using Insomnia)
 ```
