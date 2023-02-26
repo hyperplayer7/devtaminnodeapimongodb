@@ -24,6 +24,7 @@
 - Nodemon
 - Mongoose
 - MongoDB Atlas
+- Dotenv
 
 ### Commands Used / Process
 - npm run serve
@@ -48,6 +49,7 @@
  - Mongoose Schema
  - module.exports
  - Add env variables
+ - Connect Render & Mongo Atlas
 
 ### Next Iteration
 - Deploy to render

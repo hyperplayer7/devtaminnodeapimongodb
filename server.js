@@ -11,7 +11,7 @@ dotenv.config();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("hello node api");
+  res.status(200).send("hello node api");
 });
 
 app.get("/products", async (req, res) => {
