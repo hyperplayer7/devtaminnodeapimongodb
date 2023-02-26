@@ -8,3 +8,4 @@ images/*
 !images/.gitkeep
 
 config.js
+.env

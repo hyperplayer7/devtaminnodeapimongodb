@@ -28,6 +28,7 @@
 ### Commands Used / Process
 - npm run serve
 - npm run dev (nodemon)
+- npm install dotenv
 
 
 ### Project URL
@@ -40,11 +41,13 @@
 - https://www.youtube.com/watch?v=9OfL9H6AmhQ
 - https://github.com/Ileriayo/markdown-badges
 - app.diagrams.net
+- https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786
 
 ### Notes
  - Mongoose Model
  - Mongoose Schema
  - module.exports
+ - Add env variables
 
 ### Next Iteration
 - Deploy to render
